@@ -73,6 +73,8 @@ body {
     cursor: pointer;
 }
 
+
+
 .stories{
     display: flex;
     margin: 10px 0;
@@ -92,4 +94,69 @@ body {
     color: white;
     font-size: 14px;
     padding: 10px;
+}
+
+
+
+.feed{
+    background-color: white;
+}
+
+.postfeed{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.postfeed img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.postfeed input{
+    position: relative;
+    top: -8px;
+    margin-left: 2%;
+    width: calc(98% - 40px);
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: 0;
+}
+
+.postfeed input:focus{
+    outline: 0;
+}
+
+.feedicon{
+    padding: 20px 40px;
+    display: flex;
+}
+
+.iconSingle{
+    width: 33,3%;
+    text-align: center;
+}
+
+.iconSingle svg{
+    vertical-align: middle;
+    font-size: 25px;
+    color: #f02849;
+}
+
+.iconSingle.img svg{
+    color: #45bd62;
+}
+
+.iconSingle.emoji svg{
+    color: yellow;
+}
+
+.iconSingle spam{
+    font-weight: bold;
+    color: gray;
+    margin: 0 10px;
 }
