@@ -1,10 +1,11 @@
 import {AiFillVideoCamera, AiOutlineFileImage, AiFillMeh} from 'react-icons/ai'
+import windowsxp from './resources/windowsxp.jpg'; 
 
 export default function(){
     return (
         <div className="feed">
         <div className="postfeed">
-          <img src={windowsxp} alt="img"/>
+          <img src="windowsxp" alt="img"/>
           <input type="text" placeholder="No que você está pensando?"/>
         </div>
 
