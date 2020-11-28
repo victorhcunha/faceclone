@@ -164,5 +164,39 @@ body {
 
 .feedpostsingle{
     margin: 20px 0;
-    
+    background-color: white;
+}
+
+.feedpostprofile{
+    padding: 10px;
+}
+
+.feedpostprofile h3{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px, 10px;
+}
+
+.feedpostprofile h3 > span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.feedpostprofile img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.feedpostcontent p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.feedpostcontent img{
+    width: 100%;
+    display: block;
 }
