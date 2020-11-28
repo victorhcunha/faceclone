@@ -39,13 +39,13 @@ function App() {
         <div className="feedposts">
             <div className="feedpostssingle">
               <div className="feedpostprofile">
-                  <img src={profile} />
+                  <img src={windowsxp} />
                   <h3>Fulano de Tal</h3>
                   <p>4h</p>
               </div>
               <div className= "feedpostcontent">
                 <p>Conteúdo publicado</p>
-                <img src={content}/>
+                <img src={windowsxp}/>
               </div>
 
             </div>
