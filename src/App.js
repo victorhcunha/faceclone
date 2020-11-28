@@ -35,6 +35,26 @@ function App() {
 
         </div>
 
+
+        <div className="feedposts">
+            <div className="feedpostssingle">
+              <div className="feedpostprofile">
+                  <img src={profile} />
+                  <h3>Fulano de Tal</h3>
+                  <p>4h</p>
+              </div>
+              <div className= "feedpostcontent">
+                <p>Conteúdo publicado</p>
+                <img src={content}/>
+              </div>
+
+            </div>
+
+
+        </div>
+
+
+
       </div>
     </div>
   );
