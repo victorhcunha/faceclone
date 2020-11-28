@@ -35,27 +35,26 @@ function App() {
 
         </div>
 
+      </div>
 
-        <div className="feedposts">
-            <div className="feedpostssingle">
-              <div className="feedpostprofile">
-                  <img src={windowsxp} />
-                  <h3>Fulano de Tal</h3>
-                  <p>4h</p>
-              </div>
-              <div className= "feedpostcontent">
-                <p>Conteúdo publicado</p>
-                <img src={windowsxp}/>
-              </div>
 
+      <div className="feedposts">
+          <div className="feedpostsingle">
+            <div className="feedpostprofile">
+                <img src={windowsxp} />
+                <h3>Fulano de Tal</h3>
+                <p>4h</p>
+            </div>
+            <div className= "feedpostcontent">
+              <p>Conteúdo publicado</p>
+              <img src={windowsxp}/>
             </div>
 
-
-        </div>
-
+          </div>
 
 
       </div>
+
     </div>
   );
 }
