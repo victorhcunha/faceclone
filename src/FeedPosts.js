@@ -1,7 +1,7 @@
 import windowsxp from './resources/windowsxp.jpg';
 
 export default function(){
-    result (
+    return (
         <div className="feedposts">
           <div className="feedpostsingle">
             <div className="feedpostprofile">
